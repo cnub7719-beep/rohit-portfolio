@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/*
+  FIX: previously the gradient was set directly on `body`. Since body's
+  height grows with all your page content (very tall), the gradient's
+  color stops got stretched/recalculated across that whole height,
+  which created visible seams/banding at certain scroll points ("line
+  between every section"). Using a fixed, viewport-sized pseudo-element
+  instead means the gradient is always calculated against just the
+  screen size, so it stays smooth no matter how long the page is.
+*/
+body {
+  min-height: 100vh;
+  position: relative;
+  color: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(circle at top left, #bae0fd 0%, transparent 45%),
+    radial-gradient(circle at bottom right, #7dd3fc 0%, transparent 45%),
+    linear-gradient(180deg, #f0f9ff 0%, #ffffff 40%, #eff6ff 100%);
+  background-repeat: no-repeat;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes loader {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.animate-loader {
+  animation: loader 1.8s linear forwards;
+}
