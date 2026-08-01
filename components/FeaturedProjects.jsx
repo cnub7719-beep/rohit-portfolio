@@ -2,52 +2,52 @@ export default function FeaturedProjects() {
   const projects = [
     {
       driveId: "1K5pmFIkAMjENjeqDv27YsqVxY8A5U83A",
-      title: "Gaming Highlight Reel",
-      category: "Gaming",
+      title: "Motion Graphics Explainer",
+      category: "Motion Graphics",
       description:
-        "Fast-paced gameplay montage with dynamic cuts, sound design and cinematic transitions.",
+        "Animated explainer video with custom motion graphics, transitions and clear visual storytelling.",
     },
     {
       driveId: "1azRH4jVlfDFmzdfwk9DTdHephby-MOwT",
-      title: "Cinematic Storytelling",
-      category: "Video Editing",
+      title: "Gym Edit",
+      category: "Fitness Content",
       description:
-        "Narrative-driven edit with smooth pacing, color grading and emotional beats.",
+        "High-energy fitness edit with punchy cuts, motivational pacing and dynamic visuals.",
     },
     {
       driveId: "1lt8uI40GY0Gxy9b5IYZrqDTkBJNKaTGb",
-      title: "Motion Graphics Showcase",
-      category: "Motion Graphics",
+      title: "Talking Head Content",
+      category: "YouTube Editing",
       description:
-        "Animated titles, transitions and visual effects layered for maximum impact.",
+        "Retention-focused talking head edit with motion captions, jump cuts and clean pacing.",
     },
     {
       driveId: "19gKEMo8CaKfq-yIMlAAza3e-7ytm1keL",
-      title: "Talking Head Edit",
-      category: "YouTube Editing",
+      title: "AI Video Creation",
+      category: "AI Video Creation",
       description:
-        "Retention-focused edit with motion captions, jump cuts and clean pacing.",
+        "AI-generated video content blended with modern editing techniques for a polished result.",
     },
     {
       driveId: "19pQzn-KFUtaSHl1mHvHRrkT175pRBTi-",
-      title: "Brand Promo Video",
-      category: "Commercial",
+      title: "Trending AI Creation",
+      category: "AI Video Creation",
       description:
-        "Polished promotional edit built to highlight a brand's story and product.",
+        "On-trend AI-assisted video built around current formats and viral content styles.",
     },
     {
       driveId: "1AynMQbNUf4EleGQDR5NMkKt8rze7JPaA",
-      title: "Short-Form Content",
+      title: "Short Form Content",
       category: "Reels & Shorts",
       description:
         "High-retention vertical edit optimized for Reels, Shorts and TikTok.",
     },
     {
       driveId: "1HLsoWhBWu0jOWg_ohcH6EBCw1xPZ9oho",
-      title: "AI-Assisted Edit",
-      category: "AI Video Creation",
+      title: "Long Form Content",
+      category: "YouTube Editing",
       description:
-        "Modern AI-assisted workflow blended with traditional editing techniques.",
+        "Full-length YouTube edit with structured pacing, retention editing and clean storytelling.",
     },
   ];
 
