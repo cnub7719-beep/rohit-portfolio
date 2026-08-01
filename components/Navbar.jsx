@@ -61,7 +61,7 @@ export default function Navbar() {
           Rohit Bhat
         </a>
 
-        <div className="hidden lg:flex items-center gap-7 text-slate-600 text-sm">
+        <div className="hidden lg:flex items-center gap-7 text-slate-600 text-base">
           {links.map((link) => (
             <a
               key={link.id}
